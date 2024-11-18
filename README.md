@@ -41,7 +41,8 @@ Your support means the world! Here’s how you can help:
 
 ## 🎨 Sneak Peek  
 
-![VaultofCodes Banner](https://via.placeholder.com/1000x300.png?text=VaultofCodes+Internship+Hub+-+Explore%2C+Learn%2C+Grow)  
+![VaultofCodes Banner](https://via.placeholder.com/1000x300/000000/FFD700?text=VaultofCodes+Internship+Hub+%7C+Explore%2C+Learn%2C+Grow)
+ 
 
 ---
 
@@ -63,8 +64,8 @@ Have better ideas or solutions? Submit a pull request and let’s build somethin
 ---
 
 ## ⚡ Let’s Connect  
-- 🌐 [GitHub Profile](https://github.com/yourusername)  
-- 💼 [LinkedIn](https://linkedin.com/in/yourprofile)  
+- 🌐 [GitHub Profile](https://github.com/Yaser-123)  
+- 💼 [LinkedIn](https://linkedin.com/in/tmohamedyaser08)  
 
 Let’s make this internship journey truly impactful! 🌟  
 
