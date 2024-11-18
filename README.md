@@ -65,7 +65,7 @@ Have better ideas or solutions? Submit a pull request and let’s build somethin
 
 ## ⚡ Let’s Connect  
 - 🌐 [GitHub Profile](https://github.com/Yaser-123)  
-- 💼 [LinkedIn](https://linkedin.com/in/tmohamedyaser08)  
+- 💼 [LinkedIn](https://linkedin.com/in/mohamedyaser08)  
 
 Let’s make this internship journey truly impactful! 🌟  
 
