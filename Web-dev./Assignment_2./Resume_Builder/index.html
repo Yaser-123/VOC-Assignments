@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Resume Builder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/docxtemplater/3.23.0/docxtemplater.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Futuristic Resume Builder</h1>
+            <p>Create your professional resume in minutes.</p>
+        </header>
+
+        <section class="form-section">
+            <form id="resume-form">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Your Full Name" required>
+                
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+                
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" placeholder="Your Phone Number" required>
+
+                <label for="bio">Professional Summary</label>
+                <textarea id="bio" placeholder="Tell us about yourself..." required></textarea>
+
+                <label for="skills">Skills (comma separated)</label>
+                <input type="text" id="skills" placeholder="e.g. JavaScript, React, Python" required>
+
+                <label for="project">Projects</label>
+                <input type="text" id="project" placeholder="Your project & Opensource" required>
+
+                <label for="experience">Work Experience</label>
+                <textarea id="experience" placeholder="Your previous work experience" required></textarea>
+
+                <label for="education">Education</label>
+                <input type="text" id="education" placeholder="Your Degree & Institution" required>
+
+                <label for="achievements">Achievements & Certifications</label>
+                <textarea id="achievements" placeholder="List your achievements and certifications" required></textarea>
+
+                <button type="submit" id="generate-resume">Generate Resume</button>
+            </form>
+        </section>
+
+        <section class="resume-preview" id="resume-preview">
+            <div class="resume-content">
+                <h2 id="resume-name">Name</h2>
+                <p id="resume-email">Email: </p>
+                <p id="resume-phone">Phone: </p>
+                <p id="resume-bio">Professional Summary: </p>
+                <p id="resume-skills">Skills: </p>
+                <p id="resume-experience">Work Experience: </p>
+                <p id="resume-education">Education: </p>
+                <p id="resume-achievements">Achievements: </p>
+            </div>
+            <div class="download-buttons">
+                <button id="download-pdf">Download PDF</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
