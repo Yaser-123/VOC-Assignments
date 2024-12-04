@@ -1,0 +1,90 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #121212, #2b2b2b);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Recipe Card Styling */
+  .recipe-card {
+    width: 90%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .title {
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .dish-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  ul, ol {
+    text-align: left;
+    margin: 10px 0;
+    padding: 0;
+    list-style-position: inside;
+  }
+  
+  .toggle-btn, .start-btn {
+    background: #04d9ff;
+    border: none;
+    padding: 10px 20px;
+    color: #121212;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .toggle-btn:hover, .start-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  .info {
+    margin-top: 20px;
+  }
+  
+  .progress-bar-container {
+    margin: 20px 0;
+    background: #3a3a3a;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 10px;
+    width: 0;
+    background: #04d9ff;
+    transition: width 0.5s ease;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .recipe-card {
+      padding: 15px;
+    }
+  }
+  
